@@ -1,4 +1,0 @@
-This is the first file added to Git.
-
-This file comes before the others.
-Git is tracking my changes.
