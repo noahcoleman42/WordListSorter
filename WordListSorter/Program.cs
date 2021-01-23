@@ -17,7 +17,7 @@ namespace WordListSorter
             List<String> aListOfWords;
 
             // Get the words from the file
-            aListOfWords = aFileGateway.GetWordList(@"C:\Users\noahc\Desktop\Old School Stuff\CIS 122\Mine\WordsForTypingPractice.txt");
+            aListOfWords = aFileGateway.GetWordList(@"C:\Users\noahc\Desktop\WordsForTypingPractice.txt");
 
             // Sort the words and put them into a List
             aListOfWords = aWordList.SortWordList(aListOfWords);
@@ -29,7 +29,7 @@ namespace WordListSorter
             }
 
             // Save the file to the path location
-            aFileGateway.SaveWordList(@"C:\Users\noahc\Desktop\Old School Stuff\CIS 122\Mine\WordsForTypingPractice.txt", aListOfWords);
+            aFileGateway.SaveWordList(@"C:\Users\noahc\Desktop\WordsForTypingPractice.txt", aListOfWords);
 
             // Keep the console open
             Console.ReadLine();
