@@ -7,8 +7,6 @@ The main goal for this project was to assist me in entering practice typing word
 
 The program is a .NET Framework console application written in C#. This means the program can run on Windows machines from the command-line. I created two objects: a file gateway and a word list each with their own methods. The file gateway is used to retrieve and save files, and the word list is used to sort and filter the list of words.
 
-This project's GitHub repository can be seen here: 
-
 Try it out
 -----
 If you would like to use this (and are using a Windows machine), follow these steps:
